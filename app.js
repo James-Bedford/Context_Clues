@@ -34,10 +34,11 @@ function rainbow() {
 }
 
 function accusation(i) {
+  var j = i; //not needed but shows closure private variable within function used by anotehr function called internally
   return alert(
-    `Accusation ${i}: I accuse ${friend(i)}, with the ${how(
-      i
-    )} in the ${locations(i)}!`
+    `Accusation ${j}: I accuse ${friend(j)}, with the ${how(
+      j
+    )} in the ${locations(j)}!`
   );
 }
 
