@@ -1,0 +1,16 @@
+.mainContainer {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.accusation {
+  display: flex;
+  background-color: rgb(219, 97, 16);
+  width: 10rem;
+  height: 5rem;
+  border-radius: 1rem;
+  align-items: center;
+  justify-content: center;
+  border: 1rem;
+  margin: 0.5rem;
+}
